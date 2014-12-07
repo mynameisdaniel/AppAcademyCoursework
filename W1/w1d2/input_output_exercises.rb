@@ -15,4 +15,20 @@ def guess
     end
   end
 end
-  
+
+
+def file_shuffle
+  puts "Input file name"
+  file_name = gets.chomp
+  file_type = ".txt"
+  file_add = "-shuffled"
+
+  array = []
+  File.open(file_name + file_type).each do |line|
+    array.push(line.chomp)
+  end
+  array.shuffle!
+  File.open(file_name + file_add + file_type, "w") do |f|
+    f.puts array.join("\n")
+  end
+end
