@@ -1,0 +1,30 @@
+def double_array(array)
+  array.map { |i| i*2 }
+end
+
+class Array  
+  def my_each
+   i = 0
+   while i < self.length 
+      yield self[i]
+     i += 1
+   end
+    return self
+  end
+end
+
+def median(array)
+  med_array=array.sort
+  idx=med_array.length/2
+  if med_array.length.odd? 
+    return med_array[idx]
+  else
+    return ((med_array[idx]+med_array[idx - 1]) / 2.0)
+  end
+end
+
+def concatenate(array)
+  array.inject("") do |accum,element|
+    accum+=element
+  end
+end    
