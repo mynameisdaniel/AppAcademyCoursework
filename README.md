@@ -14,6 +14,8 @@ Here is a breakdown of the core curriculum so you don't have dig around aimlessl
 * w07d1-w07d5: Backbone curriculum
 * w08d1-w09d5: Final projects
 
+## Highlights
+
 I have also included the following project in separate repos that highlight the work I've done.
 
 * ActiveRecord Lite
