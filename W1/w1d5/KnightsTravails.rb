@@ -29,50 +29,36 @@ class KnightPathFinder
   def valid_moves(pos)
     move = []
     directions = [[1,2], [1,-2], [2, 1], [2, -1], [-1, 2], [-1, -2], [-2, 1], [-2, -1]]
-    
     directions.each do |delta|
       temp_pos = pos.dup
       temp_pos[0] += delta[0]
       temp_pos[1] += delta[1]
       move << temp_pos
-      end
-
-     move.select do |el|
-       el[0] < 8 && el[1] < 8 && el[0] >= 0 && el[1] >=0
-     end             
+    end
+    move.select do |el|
+      el[0] < 8 && el[1] < 8 && el[0] >= 0 && el[1] >=0
+    end             
   end
   
   def new_move_positions(pos)
-
-   # coords that are possible that haven't been visited
-
     valid_moves(pos) - @visited_positions
   end
   
   def build_move_tree 
-    # start node
-    @start_node = PolyTreeNode.new(@start_pos)
-    
+    @start_node = PolyTreeNode.new(@start_pos)    
     queue = new_move_positions(@start_pos)
-    
     node_tree = [@start_node]
-
     @visited_positions = [@start_pos]
-    
     until node_tree.empty?
-    
       result = node_tree.shift
       queue = new_move_positions(result.value)
-    
       queue.each do |current_pos|
-    
         @visited_positions << current_pos       
         new_move_positions(current_pos)      
         node = PolyTreeNode.new(current_pos)
         node.parent = (result)
         node_tree << node
       end
-      
     end
     @start_node
   end

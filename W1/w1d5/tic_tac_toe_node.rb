@@ -17,10 +17,6 @@ class TicTacToeNode
     @prev_move_pos 
   end
   
-  # def children
-  #   @children
-  # end
-  
   def board
     @board
   end
@@ -32,11 +28,9 @@ class TicTacToeNode
   def losing_node?(evaluator)
     return true if @board.won? && @board.winner != evaluator
     a = []
-    self.children.each do |child|
-      
+    self.children.each do |child|    
       a << child.losing_node?(evaluator)
     end
-    
     a.any? do |el|
       return true if el == true
     end
@@ -73,12 +67,6 @@ class TicTacToeNode
   end
   
   def children
-    # return an array of TicTacToeNodes
-    
-    # for each possible move:
-    # @board.dup
-    # place mark in one of the empty spots
-    # create new child node with duped board
     array = []
     @board.rows.each_with_index do |row, idx|
       row.each_with_index do |pos, j|
@@ -86,10 +74,8 @@ class TicTacToeNode
           new_board = @board.dup
           mark = next_mover_mark
           mark == :x ? mark = :o : mark = :x
-          new_board[[idx, j]] = mark
-          
+          new_board[[idx, j]] = mark      
           possibility = TicTacToeNode.new(new_board, mark, [idx, j])
-          
           array << possibility
         end
       end
