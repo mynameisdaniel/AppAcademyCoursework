@@ -23,8 +23,9 @@ I have also included the following project in separate repos that highlight the 
 * [Asteroids] [asteroids]
 * [Snake] [snake]
 * Tic-Tac-Toe & Tower of Hanoi
-* Ruby recursion exercises
+* [Ruby recursion exercises]
 * BFS, DFS, Knight's Travails, 8 Queens, Word Chains
+* [Recursion Bonus] [recursion-bonus]
 * [TrelloClone] [trello]
 
 [active-record]: https://github.com/mynameisdaniel/ActiveRecordLite 
@@ -32,5 +33,7 @@ I have also included the following project in separate repos that highlight the 
 [asteroids]: https://github.com/mynameisdaniel/Asteroids
 [snake]: https://github.com/mynameisdaniel/Snake
 [trello]: https://github.com/mynameisdaniel/TrelloClone
+[recursion]: https://github.com/mynameisdaniel/RecursionExercises
+[recursion-bonus]: https://github.com/mynameisdaniel/BonusRecursionExercises
 Thanks!
 Daniel Chan
