@@ -23,12 +23,15 @@ I have also included the following project in separate repos that highlight the 
 * [Asteroids] [asteroids]
 * [Snake]
 *  Tower of Hanoi
-*  Checkers
-*  Chess
+* [Checkers] [checkers]
+* [Chess] [chess]
 * [Ruby recursion exercises] [recursion]
 * [BFS, DFS, Knight's Travails, 8 Queens] [data-struct-misc]
 * [Recursion Bonus] [recursion-bonus]
 * [TrelloClone] [trello]
+
+Thanks!
+Daniel Chan
 
 [active-record]: https://github.com/mynameisdaniel/ActiveRecordLite 
 [rails-lite]: https://github.com/mynameisdaniel/RailsLite
@@ -38,5 +41,5 @@ I have also included the following project in separate repos that highlight the 
 [data-struct-misc]: https://github.com/mynameisdaniel/DataStructureMisc
 [recursion]: https://github.com/mynameisdaniel/RecursionExercises
 [recursion-bonus]: https://github.com/mynameisdaniel/BonusRecursionExercises
-Thanks!
-Daniel Chan
+[checkers]: https://github.com/mynameisdaniel/Checkers
+[chess]: https://github.com/mynameisdaniel/Chess
