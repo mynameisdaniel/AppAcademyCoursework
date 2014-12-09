@@ -13,3 +13,17 @@ Here is a breakdown of the core curriculum so you don't have dig around aimlessl
 * w06d1-w06d5: Javascript curriculum
 * w07d1-w07d5: Backbone curriculum
 * w08d1-w09d5: Final projects
+
+I have also included the following highlights in other repos that are particularly interesting.
+
+*ActiveRecord Lite
+*Rails Lite
+*Asteroids
+*Snake
+*Tic-Tac-Toe & Tower of Hanoi
+*Ruby recursion exercises
+*BFS, DFS, Knight's Travails, 8 Queens, Word Chains
+*TrelloClone
+
+Thanks!
+Daniel Chan
