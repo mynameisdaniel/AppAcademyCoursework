@@ -23,7 +23,7 @@ I have also included the following project in separate repos that highlight the 
 * [Asteroids] [asteroids]
 * [Snake] [snake]
 * Tic-Tac-Toe & Tower of Hanoi
-* [Ruby recursion exercises]
+* [Ruby recursion exercises] [recursion]
 * BFS, DFS, Knight's Travails, 8 Queens, Word Chains
 * [Recursion Bonus] [recursion-bonus]
 * [TrelloClone] [trello]
