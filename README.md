@@ -19,15 +19,17 @@ Here is a breakdown of the core curriculum so you don't have dig around aimlessl
 I have also included the following project in separate repos that highlight the work I've done.
 
 * [ActiveRecord Lite] [active-record]
-* Rails Lite
-* Asteroids
-* Snake
+* [Rails Lite] [rails-lite]
+* [Asteroids] [asteroids]
+* [Snake] [snake]
 * Tic-Tac-Toe & Tower of Hanoi
 * Ruby recursion exercises
 * BFS, DFS, Knight's Travails, 8 Queens, Word Chains
 * TrelloClone
 
 [active-record]: https://github.com/mynameisdaniel/ActiveRecordLite 
-
+[rails-lite]: https://github.com/mynameisdaniel/RailsLite
+[asteroids]: https://github.com/mynameisdaniel/Asteroids
+[snake]: https://github.com/mynameisdaniel/Snake
 Thanks!
 Daniel Chan
