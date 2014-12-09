@@ -23,6 +23,7 @@ I have also included the following project in separate repos that highlight the 
 * [Asteroids] [asteroids]
 * [Snake]
 *  Tower of Hanoi
+* [TwitterAJAX] [twitter-ajax]
 * [Checkers] [checkers]
 * [Chess] [chess]
 * [Ruby recursion exercises] [recursion]
@@ -43,3 +44,4 @@ Daniel Chan
 [recursion-bonus]: https://github.com/mynameisdaniel/BonusRecursionExercises
 [checkers]: https://github.com/mynameisdaniel/Checkers
 [chess]: https://github.com/mynameisdaniel/Chess
+[twitter-ajaz]: https://github.com/mynameisdaniel/TwitterAJAX
