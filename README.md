@@ -44,4 +44,4 @@ Daniel Chan
 [recursion-bonus]: https://github.com/mynameisdaniel/BonusRecursionExercises
 [checkers]: https://github.com/mynameisdaniel/Checkers
 [chess]: https://github.com/mynameisdaniel/Chess
-[twitter-ajaz]: https://github.com/mynameisdaniel/TwitterAJAX
+[twitter-ajax]: https://github.com/mynameisdaniel/TwitterAJAX
