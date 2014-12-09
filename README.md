@@ -21,8 +21,10 @@ I have also included the following project in separate repos that highlight the 
 * [ActiveRecord Lite] [active-record]
 * [Rails Lite] [rails-lite]
 * [Asteroids] [asteroids]
-* [Snake] [snake]
-* Tic-Tac-Toe & Tower of Hanoi
+* [Snake]
+*  Tower of Hanoi
+*  Checkers
+*  Chess
 * [Ruby recursion exercises] [recursion]
 * [BFS, DFS, Knight's Travails, 8 Queens] [data-struct-misc]
 * [Recursion Bonus] [recursion-bonus]
