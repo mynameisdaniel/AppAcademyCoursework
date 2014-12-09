@@ -21,8 +21,8 @@ I have also included the following project in separate repos that highlight the 
 * [ActiveRecord Lite] [active-record]
 * [Rails Lite] [rails-lite]
 * [Asteroids] [asteroids]
-* [Snake]
-*  Tower of Hanoi
+* [Javascript Game] [js-games]
+* [Tower of Hanoi] [towers]
 * [TwitterAJAX] [twitter-ajax]
 * [Checkers] [checkers]
 * [Chess] [chess]
@@ -45,3 +45,5 @@ Daniel Chan
 [checkers]: https://github.com/mynameisdaniel/Checkers
 [chess]: https://github.com/mynameisdaniel/Chess
 [twitter-ajax]: https://github.com/mynameisdaniel/TwitterAJAX
+[towers]: https://github.com/mynameisdaniel/TowersOfHanoi
+[js-games]: https://github.com/mynameisdaniel/JavascriptGames
