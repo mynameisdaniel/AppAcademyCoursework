@@ -24,7 +24,7 @@ I have also included the following project in separate repos that highlight the 
 * [Snake] [snake]
 * Tic-Tac-Toe & Tower of Hanoi
 * [Ruby recursion exercises] [recursion]
-* BFS, DFS, Knight's Travails, 8 Queens, Word Chains
+* [BFS, DFS, Knight's Travails, 8 Queens] [data-struct-misc]
 * [Recursion Bonus] [recursion-bonus]
 * [TrelloClone] [trello]
 
@@ -33,6 +33,7 @@ I have also included the following project in separate repos that highlight the 
 [asteroids]: https://github.com/mynameisdaniel/Asteroids
 [snake]: https://github.com/mynameisdaniel/Snake
 [trello]: https://github.com/mynameisdaniel/TrelloClone
+[data-struct-misc]: https://github.com/mynameisdaniel/DataStructureMisc
 [recursion]: https://github.com/mynameisdaniel/RecursionExercises
 [recursion-bonus]: https://github.com/mynameisdaniel/BonusRecursionExercises
 Thanks!
