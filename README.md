@@ -22,7 +22,7 @@ I have also included the following project in separate repos that highlight the 
 * [Rails Lite] [rails-lite]
 * [Asteroids] [asteroids]
 * [Javascript Game] [js-games]
-* [Tower of Hanoi - JS [towers]
+* [Tower of Hanoi - JS] [towers]
 * [TwitterAJAX] [twitter-ajax]
 * [Checkers] [checkers]
 * [Chess] [chess]
